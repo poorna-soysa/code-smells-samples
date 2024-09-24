@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CodeSmells;
+﻿namespace CodeSmells;
 internal class BooleanBlindess
 {
     public void ProcessOrderWithBooleanBlindness(int orderId, bool applyDiscount)
